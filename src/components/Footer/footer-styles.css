@@ -1,0 +1,48 @@
+.footer-container {
+  position: absolute;
+  top: 91%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Karla";
+  font-weight: 700;
+  height: 5.5%;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer-colored {
+  background: transparent;
+}
+
+.salutation {
+  margin-left: 8.5%;
+  font-size: 15px;
+}
+
+.team-name {
+  margin-right: 8.5%;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    line-height: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 0;
+    line-height: 0;
+  }
+  .salutation {
+    font-size: 13px;
+    margin-left: 0;
+  }
+  .team-name {
+    font-size: 13px;
+    margin-left: 10%;
+  }
+}

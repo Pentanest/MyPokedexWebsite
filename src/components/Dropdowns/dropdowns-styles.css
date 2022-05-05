@@ -1,0 +1,48 @@
+.dropdown-container {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.button-group {
+  margin-right: 4%;
+}
+
+.filter-btn {
+  width: 130%;
+  background: #f2f2f2;
+  box-shadow: 4px 4px 8px rgba(1, 28, 64, 0.2);
+  border-radius: 8px;
+}
+
+.dropdown-menu {
+  background: #f2f2f2;
+  box-shadow: 4px 4px 8px rgba(1, 28, 64, 0.2);
+  border-radius: 8px;
+}
+
+.checkboxes {
+  margin-left: 20%;
+}
+/* .filter-title:before {
+  content: "Tipo";
+} */
+
+@media (max-width: 768px) {
+  .filter-btn {
+    width: 120%;
+  }
+}
+@media (max-width: 414px) {
+  .dropdown-container {
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 20%;
+  }
+  .special-dropdown {
+    visibility: hidden;
+    position: absolute;
+  }
+  .filter-title:before {
+    content: "Filter";
+  }
+}

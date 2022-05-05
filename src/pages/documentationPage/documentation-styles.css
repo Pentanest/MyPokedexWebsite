@@ -1,0 +1,50 @@
+.whole-document {
+  overflow: hidden;
+}
+
+.pokedex-dropdowns {
+  display: flex;
+  margin-left: 12%;
+}
+
+.dropdown-mobile {
+  display: none;
+  position: absolute;
+}
+
+.row {
+  margin-top: 2vw;
+  margin-left: 4rem;
+}
+
+@media (max-width: 768px) {
+  .row {
+    margin-left: 0.4rem;
+    margin-right: 3.2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .row {
+    margin-left: 1rem;
+  }
+  .special-card {
+    visibility: visible;
+    position: unset;
+  }
+  .cards-hidden {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .dropdown-mobile {
+    display: unset;
+    position: unset;
+  }
+
+  .pokedex-dropdowns {
+    display: none;
+    position: absolute;
+  }
+}

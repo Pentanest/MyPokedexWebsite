@@ -1,0 +1,516 @@
+.modal-card-container {
+  width: 1400px;
+  height: 812px;
+  overflow: hidden;
+  /* background-color: rgb(0, 0, 0, 40%); */
+  margin: 0%;
+}
+.modal-close-button-inside {
+  display: none;
+  position: absolute;
+}
+.modal-close-button {
+  margin-top: 200px;
+  margin-left: 1050px;
+  margin-bottom: 10px;
+}
+.pokename-inside {
+  display: none;
+  position: absolute;
+}
+.modal-card {
+  width: 796.73px;
+  height: 371px;
+  border-radius: 17.28px;
+  /* margin: 245px; */
+  background-image: url("../../assets/images/rectangle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin-left: 270px;
+  margin-bottom: 320px;
+}
+.modal-image-container {
+  height: 371px;
+  width: 364.35px;
+  border-radius: 17.28px;
+  background: linear-gradient(270deg, #b33327 0.15%, #d93e30 100%);
+}
+.poke-image {
+  width: 342.12px;
+  height: 303.12px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10%;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.modal-btn-container {
+  width: 130px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  margin-left: 216px;
+}
+
+.modal-btn1 {
+  background: #73d677;
+  border-radius: 11px;
+  width: 52.41px;
+  height: 19px;
+  font-family: Karla;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 15px;
+  border: none;
+  text-align: center;
+}
+.modal-btn2 {
+  background: #07d6f2;
+  border-radius: 11px;
+  width: 52.41px;
+  height: 19px;
+  font-family: Karla;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+}
+
+.modal-information-container {
+  height: 370px;
+  width: 429px;
+  border-radius: 17.28px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-heading-container {
+  color: white;
+  margin-left: 16px;
+  margin-top: 16px;
+  justify-content: space-between;
+  font-family: Karla;
+  height: 42px;
+  width: 400px;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.modal-abilities {
+  width: 264px;
+  background-color: white;
+  margin-top: 20px;
+  line-height: 17px;
+  margin-left: 14.64px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+  padding-left: 28px;
+  font-family: Karla;
+}
+
+.modal-data-part-container {
+  width: 400px;
+  height: 90px;
+  background-color: white;
+  margin-top: 21px;
+  margin-left: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.modal-sub-container {
+  width: 400px;
+  height: 70px;
+  margin-bottom: 1vw;
+  margin-left: 15px;
+  padding-top: 21px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Karla;
+}
+
+.modal-square-container {
+  width: 82.42px;
+  height: 70.94px;
+  background-color: white;
+  border-radius: 8px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.modal-round {
+  display: flex;
+  justify-content: center;
+  width: 35.47px;
+  height: 36.6px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  padding-top: 3px;
+  align-items: center;
+}
+.modal-left {
+  display: flex;
+  flex-direction: column;
+  font-family: Karla;
+  padding-left: 15px;
+  justify-content: center;
+  line-height: 15px;
+}
+.modal-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  justify-content: center;
+  font-family: Karla;
+  line-height: 15px;
+}
+
+.modal-progress {
+  height: 5px;
+}
+
+.modal-progress-bar {
+  width: 167px;
+}
+.modal-card-point {
+  display: flex;
+  justify-content: center;
+  width: 41px;
+  padding-top: 5px;
+  background-color: #f2cb07;
+  border-radius: 50%;
+  font-family: Karla;
+  align-items: center;
+  font-size: 16px;
+  color: #000;
+}
+.modal-card-point-mobile {
+  position: absolute;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .modal-card-container {
+    margin-top: 20%;
+    width: 730px;
+    height: 730px;
+  }
+  .modal-close-button {
+    margin-top: 200px;
+    margin-left: 650px;
+    margin-bottom: 10px;
+  }
+  .modal-card {
+    width: 666.73px;
+    height: 311px;
+    border-radius: 17.28px;
+    background-image: url("../../assets/images/rectangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    /* margin-top: 170px; */
+  }
+  .modal-image-container {
+    height: 310px;
+    width: 304.35px;
+    border-radius: 17.28px;
+    background: linear-gradient(270deg, #b33327 0.15%, #d93e30 100%);
+  }
+  .poke-image {
+    width: 285.12px;
+    height: 285.12px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 12px;
+    margin-right: 10px;
+  }
+
+  .modal-btn-container {
+    margin-left: 220px;
+    width: 130px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-left: 170px;
+  }
+
+  .modal-information-container {
+    height: 309px;
+    width: 360px;
+    border-radius: 17.28px;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-heading-container {
+    color: white;
+    margin-left: 16px;
+    margin-top: 16px;
+    justify-content: space-between;
+    font-family: Karla;
+    height: 42px;
+    width: 330px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+  }
+  .modal-abilities {
+    margin-top: 10px;
+  }
+  .modal-data-part-container {
+    width: 335px;
+    height: 75px;
+    margin-top: 15px;
+  }
+  .modal-sub-container {
+    width: 335px;
+    height: 70px;
+    margin-bottom: 1vw;
+    margin-left: 15px;
+    padding-top: 21px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Karla;
+  }
+
+  .modal-square-container {
+    width: 68.42px;
+    height: 64.94px;
+    background-color: white;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .modal-round {
+    display: flex;
+    justify-content: space-around;
+    width: 29.47px;
+    height: 30.6px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    text-align: center;
+    align-items: center;
+  }
+  .modal-left {
+    width: 183px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Karla;
+    padding-left: 15px;
+    justify-content: center;
+  }
+  .modal-right {
+    width: 183px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 15px;
+    justify-content: center;
+    font-family: Karla;
+  }
+
+  .modal-progress-bar {
+    width: 139px;
+  }
+  .modal-card-point {
+    display: flex;
+    justify-content: space-around;
+    width: 41px;
+    height: 41px;
+    background-color: #f2cb07;
+    border-radius: 50%;
+    font-family: Karla;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    color: #000;
+  }
+  .modal-card-point-mobile {
+    display: none;
+    position: absolute;
+  }
+}
+
+@media (max-width: 414px) {
+  .modal-card-container {
+    width: 400px;
+    height: 845px;
+    overflow: hidden;
+  }
+  .modal-close-button {
+    display: none;
+    position: absolute;
+  }
+
+  .modal-close-button-inside {
+    display: unset;
+    position: absolute;
+    left: 10px;
+    top: 90px;
+  }
+  .pokename-div-container {
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .pokename-inside {
+    display: unset;
+    position: unset;
+    font-family: Karla;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+  .modal-card {
+    height: 812px;
+    width: 395px;
+    border-radius: 16px;
+    margin: 0%;
+    background-image: url("../../assets/images/rectangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-image-container {
+    height: 451px;
+    width: 395px;
+    border-radius: 16px;
+    background: linear-gradient(270deg, #b33327 0.15%, #d93e30 100%);
+  }
+
+  .poke-image {
+    width: 326.12px;
+    height: 310.12px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 12px;
+    margin-right: 10px;
+  }
+
+  .modal-btn-container {
+    width: 140px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-left: 220px;
+  }
+
+  .modal-card-point {
+    display: none;
+    position: absolute;
+  }
+
+  .modal-card-point-mobile {
+    display: flex;
+    justify-content: center;
+    width: 41px;
+    padding-top: 5px;
+    background-color: #f2cb07;
+    border-radius: 50%;
+    font-family: Karla;
+    align-items: center;
+    font-size: 16px;
+    color: #000;
+    left: 20px;
+  }
+
+  .modal-heading-container {
+    display: none;
+    position: absolute;
+  }
+  .modal-abilities {
+    margin-top: 18px;
+    width: 365px;
+    height: 200px;
+    line-height: 20px;
+  }
+
+  .modal-abilities-title {
+    font-size: 26px;
+  }
+
+  .rendered-abilities {
+    font-size: 18px;
+  }
+  .modal-data-part-container {
+    width: 365px;
+    height: 150px;
+    flex-direction: column;
+    padding-bottom: 26px;
+    padding-top: 10px;
+    font-size: 18px;
+    padding-left: 12px;
+  }
+  .modal-sub-container {
+    width: 365px;
+    height: 70px;
+  }
+
+  .modal-square-container {
+    width: 82.42px;
+  }
+  .modal-round {
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    text-align: center;
+    align-items: center;
+  }
+  .modal-left {
+    margin-bottom: 17px;
+  }
+  .modal-right {
+    width: 183px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 15px;
+    justify-content: center;
+    font-family: Karla;
+  }
+
+  .modal-progress-bar {
+    width: 137px;
+  }
+}

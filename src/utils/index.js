@@ -1,0 +1,1 @@
+export { letterCapitalizer } from "./letterCapitalizer";
